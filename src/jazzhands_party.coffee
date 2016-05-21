@@ -8,13 +8,12 @@
 #
 # Commands:
 #   hubot jazzhands me - Receive jazzhands
-#   hubot jazzhands bomb N - get N jazzhands
+#   hubot jazzhands party - Multiple jazzhands
 
 module.exports = (robot) ->
 
   robot.respond /jazzhands me/i, (msg) ->
         msg.send ":jazzhands:"
-
-  robot.respond /jazzhands bomb( (\d+))?/i, (msg) ->
-    count = msg.match[2] || 5
-        msg.send ":jazzhands: :jazzhands: :jazzhands:" 
+  
+  robot.respond /jazzhands party/i, (msg) ->
+        msg.send ":jazzhands: :jazzhands: :jazzhands: :jazzhands:" 
