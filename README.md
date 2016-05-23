@@ -1,5 +1,5 @@
 # hubot-jazzhands
-
+Upload `jazzhands.gif` to your Slack team as `:jazzhands:`
 ## Commands:
 
 `hubot jazzhands me` - Receive jazzhands
