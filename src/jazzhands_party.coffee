@@ -17,3 +17,6 @@ module.exports = (robot) ->
   
   robot.respond /jazzhands party/i, (msg) ->
         msg.send ":jazzhands: :jazzhands: :jazzhands: :jazzhands:" 
+
+  robot.hear /jazz/i, (msg) ->
+        msg.reply ":jazzhands:"
